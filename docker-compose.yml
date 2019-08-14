@@ -9,7 +9,7 @@ services:
       - ".:/app"
       - "testsuite:/tmp"
   mysql_phpunit:
-    image: "mariadb:10.2"
+    image: "mariadb:10.3"
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: "wordpress_test"
